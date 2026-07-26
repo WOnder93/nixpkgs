@@ -12171,6 +12171,8 @@ self: super: with self; {
 
   open-meteo = callPackage ../development/python-modules/open-meteo { };
 
+  open3e = callPackage ../development/python-modules/open3e { };
+
   openai = callPackage ../development/python-modules/openai { };
 
   openai-agents = callPackage ../development/python-modules/openai-agents { };
